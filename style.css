@@ -1,0 +1,442 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&a…);*/
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+.container {
+    max-width: 906px;
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+ 
+.big-container {
+    max-width: 1481px;
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+ 
+.flex {
+    display: flex;
+}
+ 
+:root {
+    --main-color: #626262;
+}
+ 
+a {
+    text-decoration: none;
+}
+ 
+ul {
+    list-style: none;
+}
+ 
+/*--------------------------- header---------------------- */
+.header-wrap {
+    height: 96px;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+ 
+.header-menu {
+    gap: 53px;
+ 
+    a {
+        font-family: "Playfair Display", serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 100%;
+        color: #808080;
+    }
+}
+ 
+/* -----------------------------sec1-------------------- */
+.sec1-wrap {
+    background-image: url(./images/frontpage_hero.8bc64969\ 1\ \(1\).png);
+    height: 640px;
+    position: relative;
+}
+ 
+.sec1-content {
+    position: absolute;
+    top: 179px;
+    left: 542px;
+ 
+    h1 {
+        font-family: "Inter", sans-serif;
+        font-weight: 900;
+        font-size: 64px;
+        line-height: 20px;
+        color: black;
+        text-align: center;
+    }
+    p{
+         font-family: "Inter", sans-serif;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 42px;
+        color: black;
+        width: 412px;
+        text-align: center;
+        padding-top: 34px;
+    }
+    button{
+        width: 176px;
+        height: 60px;
+        border-radius: 6px;
+        background-color: #2D85F3;
+          font-family: "Inter", sans-serif;
+        font-weight: 900;
+        font-size: 15px;
+        line-height: 23px;
+        color: #FFFFFF;
+        margin-top: 34px;
+        margin-left: 120px;
+        border: none;
+    }
+    button:hover{
+        background-color: #1B5AA8;
+        cursor: pointer;
+    }
+}
+
+ .sect2-text{
+   font-family: "Playfair Display", serif; 
+   color: #626262; 
+   margin-top: 50px;
+
+}
+
+.img{
+   margin-top: 50px;
+
+}
+
+.sec2-wrap{
+   display: flex;
+   gap: 65px;
+  
+
+
+}
+
+.img{
+   margin-top: 100px;
+   width: 796;
+height: 597;
+top: 1051px;
+left: 42.24px;
+opacity: 1;
+
+   
+
+}
+
+.sec2-text{
+   font-family: "Playfair Display", serif; 
+   color: #626262;
+   margin-top: 50px;
+    
+
+   
+
+}
+
+.text{
+   margin-bottom: 30px;
+   color:  #B4AD9E;
+   font-size: 14px;
+   font-family: "Open Sans", sans-serif;
+   font-weight: 100;
+
+}
+
+.text1{
+   margin-bottom: 30px;
+   color:  #B4AD9E;
+   font-size: 14px;
+   font-family: "Open Sans", sans-serif;
+   font-weight: 100;
+}
+
+.img{
+    height: 500px; ;
+    width: 550px;
+    
+}
+
+.container {
+   display: flex;
+   flex-direction: column;
+   gap: 50px; /* Відступ між текстом і фото */
+ }
+
+ .sec1-wrap{
+   display: flex;
+   gap: 65px;
+  
+
+
+}
+
+ .sect2-text{
+   font-family: "Playfair Display", serif; 
+   color: #626262; 
+   margin-top: 50px;
+
+}
+
+.img{
+   margin-top: 50px;
+
+}
+
+.sec2-wrap{
+   display: flex;
+   gap: 65px;
+  
+
+
+}
+
+.img{
+   margin-top: 100px;
+   
+
+}
+
+.sec2-text{
+   font-family: "Playfair Display", serif; 
+   color: #626262;
+   margin-top: 50px;
+    
+
+   
+
+}
+
+.text{
+   margin-bottom: 30px;
+   color:  #B4AD9E;
+   font-size: 14px;
+   font-family: "Open Sans", sans-serif;
+   font-weight: 100;
+
+}
+
+.text1{
+   margin-bottom: 30px;
+   color:  #B4AD9E;
+   font-size: 14px;
+   font-family: "Open Sans", sans-serif;
+   font-weight: 100;
+}
+
+
+.text2{
+   margin-top: 50px;
+   margin-bottom: 30px;
+   color:  #B4AD9E;
+   font-size: 14px;
+   font-family: "Open Sans", sans-serif;
+   font-weight: 100;
+}
+
+
+.text3{
+   margin-top: 50px;
+   margin-bottom: 30px;
+   color:  #B4AD9E;
+   font-size: 14px;
+   font-family: "Open Sans", sans-serif;
+   font-weight: 100;
+}
+
+.t{
+   font-size: 30px;
+   font-family: Playfair Display;
+   font-weight: 400;
+   font-size: 30px;
+   line-height: 100%;
+   letter-spacing: 0%;
+
+
+}
+
+.t1{
+   font-size: 30px;
+   font-family: Playfair Display;
+   font-weight: 400;
+   font-size: 30px;
+   line-height: 100%;
+   letter-spacing: 0%;
+  
+}
+
+.t2{
+   font-size: 30px;
+   font-family: Playfair Display;
+   font-weight: 400;
+   font-size: 30px;
+   line-height: 100%;
+   letter-spacing: 0%;
+}
+
+.t3{
+   font-size: 30px;
+   font-family: Playfair Display;
+   font-weight: 400;
+   font-size: 30px;
+   line-height: 100%;
+   letter-spacing: 0%;
+}
+
+.tx{
+   margin-top: 20px;
+}
+
+.tx1{
+   margin-top: 20px;
+}
+
+.tx2{
+   margin-top: 20px;
+}
+
+.tx3{
+   margin-top: 20px;
+}
+
+.sec3-wrap{
+   display: flex;
+   gap: 50px;
+  
+
+
+}
+
+.sec3-text{
+   font-family: "Playfair Display", serif; 
+   color: #626262;
+   margin-top: 50px;
+    
+
+   
+
+}
+
+
+.sect3-text{
+   font-family: "Playfair Display", serif; 
+   color: #626262;
+   margin-top: 50px;
+    
+
+   
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f5f5f5;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.card {
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+}
+
+.card img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+}
+
+.card h3 {
+    font-size: 18px;
+    margin: 16px;
+}
+
+.card p {
+    font-size: 14px;
+    color: #777;
+    margin: 0 16px 20px;
+}
+
+
+
+
+.hero-content {
+    max-width: 500px;
+    z-index: 2;
+}
+
+.hero-content h1 {
+    font-size: 64px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+
+.btn {
+    display: inline-block;
+    background: rgb(0, 174, 255);
+    color: black;
+    padding: 14px 28px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #0063c0;
+}
+
+
+.hero-image {
+    position: absolute;
+    right: 60px;
+    bottom: 0;
+    height: 90%;
+}
+
+
+
